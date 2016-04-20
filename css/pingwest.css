@@ -57,6 +57,7 @@ div.clear{
   	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
   	-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
  	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+ 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
 }
 #loginmodal img{
 	width: 30%;
@@ -71,6 +72,7 @@ div.clear{
   color: #7988a3;
   font-size: 1.4em;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C8ffffff,endColorstr=#C8ffffff);
   background-color: #fff;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#edf3f9), to(#fff));
   background-image: -webkit-linear-gradient(top, #edf3f9, #fff);
@@ -200,6 +202,7 @@ div.nav{
 	color: #888888;
 	cursor: pointer;
 	background:rgba(0,0,0,0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C8000000,endColorstr=#C8000000);
 	border-bottom: solid 0.5px #888888;
 }
 .nav ul.navSlideDown>li a{
@@ -231,6 +234,7 @@ div.nav{
 	position: absolute;
 	top:0;
 	background-color: rgba(0,0,0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
 	width: 100%;
 	height: 100%;
 	z-index: 2;
@@ -293,10 +297,10 @@ div.nav{
 /*插件修改*/
 .carousel-indicators li{
 	border-radius: 0;
-	width: 50px;
-	height: 4px;
 	background: rgba(106,102,102,0.7);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B26A6666,endColorstr=#B26A6666);
+	width: 50px;
+	height: 4px;
 	border: 0;
 	padding: 0 20px;
 }
@@ -330,52 +334,46 @@ li.active{
 	line-height: 20px;
 	padding: 20px 0;
 	background: rgba(0,0,0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
 	font-weight: 400;
-}
-.indexMain:last-child{
-	float: none;
 }
 .indexMain img{
 	width: 100%;
-	height: 100%;
 }
-.indexMain .indexMainBuild11{
-	width: calc(41.6666666% - 22px);
-	height: 280px;
-	cursor: pointer;
+.indexMainSlideRight div.indexAbout:after{
+	clear: both;
 }
-.indexMain .indexMain433{
-	width: calc(25% - 22px);
-	height: 250px;
-	cursor: pointer;
-}
-.indexMain .indexMainLeijun{
-	width: calc(33.3333333% - 22px);
-	height: 280px;
-	cursor: pointer;
-}
-.indexMain .indexMainHover{
-	width: calc(25% - 22px);
-	height: 250px;
-	cursor: pointer;
-}
-.indexMain .indexMainBuild8{
-	width: calc(50% - 22px);
-	height: 250px;
-	cursor: pointer;
-}
-.indexMain .indexMainHuami{
-	width: calc(25% - 22px);
-	height: 250px;
-	cursor: pointer;
-}
-.indexMain .indexMain495{
-	width: calc(25% - 22px);
-	height: 250px;
-	cursor: pointer;
+.indexMainSlideLeft div.indexAbout:after{
+	clear: both;
 }
 .indexAbout{
 	overflow: hidden;
+	width: 31%;
+	height: 200px;
+	border:solid 2px #DDDDDD;
+	background: #FDFDFD;
+	text-align: left;
+	-moz-box-shadow: 0px 5px 10px 0px #888888; /* 老的 Firefox */
+	-moz-box-shadow: 0px 5px 10px 0px #888888;/* Firefox 4 */
+	-webkit-box-shadow: 0px 5px 10px 0px #888888;	/* Safari 和 Chrome */
+	-o-box-shadow: 0px 5px 10px 0px #888888; 
+	box-shadow: 0px 5px 10px 0px #888888;
+}
+.indexAbout span{
+	padding: 10px 0;
+	display: block;
+	text-align: left;
+	line-height: 20px;
+}
+.indexAbout img{
+	cursor: pointer;
+	transition:transform 0.5s;
+	-moz-transition:transform 0.5s; /* Firefox 4 */
+	-webkit-transition:transform 0.5s; /* Safari and Chrome */
+	-o-transition:transform 0.5s; /* Opera */
+}
+.indexAbout img:hover{
+	transform:scale(1.1,1.1);
 }
 /*footer*/
 .footer{
@@ -615,6 +613,7 @@ li.active{
 	position: absolute;
 	top:0;
 	background-color: rgba(0,0,0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
 	width: 100%;
 	height: 100%;
 	z-index: 2;
