@@ -964,3 +964,162 @@ li.active{
 .listContact p.theLastP{
 	padding-bottom: 30px;
 }
+
+@media screen and (min-width: 1300px) {
+	.listMainnav{
+		padding: 5% 41% !important;
+	}
+}
+@media screen and (min-width: 1400px) {
+	.actMainnav{
+		padding: 5% 36%;
+	}
+}
+@media screen and (min-width: 1500px) {
+	.actMainnav{
+		padding: 5% 37%;
+	}
+	.nav ul.navSlideDown{
+		position: absolute;
+		left: -35px;
+	}
+	.listMainnav{
+		padding: 5% 42% !important;
+	}
+}
+@media screen and (min-width: 1650px) {
+	.actMainnav{
+		padding: 5% 38%;
+	}
+	.listMainnav{
+		padding: 5% 43% !important;
+	}
+}
+@media screen and (min-width: 1700px) {
+	.indexBannerImgText h1{
+		position: absolute;
+		top:25%;
+	}
+	.indexBannerImgText span{
+		position: absolute;
+		top:50%;
+	}
+	.nav ul.navSlideDown{
+		position: absolute;
+		left: -30px;
+	}
+}
+@media screen and (min-width: 1800px) {
+	.listMainnav{
+		padding: 5% 44% !important;
+	}
+}
+@media screen and (min-width: 1900px) {
+	.actMainnav{
+		padding: 5% 39%;
+	}
+}
+@media screen and (max-width: 1300px) {
+	.actMainnav{
+		padding: 5% 32%;
+	}
+	.listMainnav{
+		padding: 5% 40% !important;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.indexBannerImgText h1{
+		font-size: 40px;
+	}
+	.indexBannerImgText span{
+		font-size: 20px;
+	}
+	.conBannerText span{
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 1124px) {
+	.listMainnav{
+		padding: 5% 39% !important;
+	}
+	.conBannerText span{
+		position: absolute;
+		top: 5%;
+	}
+}
+@media screen and (max-width: 1100px) {
+	.actMainnav{
+		padding: 5% 30%;
+	}
+	.listMainContactText1 h1{
+		font-size: 20px;
+	}
+	.listMainContactText1 p{
+		font-size: 12px;
+		line-height: 20px !important;
+	}
+}
+@media screen and (max-width: 1050px) {
+	.indexBannerImgText h1{
+		line-height: 60px;
+		font-size: 30px;
+	}
+	.indexBannerImgText span{
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.listMainnav{
+		padding: 5% 38% !important;
+	}
+	.conBannerText span{
+		font-size: 35px;
+		line-height: 50px;
+	}
+}
+@media screen and (max-width: 980px) {
+	.actMainnav{
+		padding: 5% 28%;
+	}
+	.listMainnav{
+		padding: 5% 37% !important;
+	}
+	.conBannerText span{
+		font-size: 35px;
+		line-height: 45px;
+		position: absolute;
+		top:1%;
+	}
+	.nav ul.navUl>li{
+		margin-right: 5px;
+	}
+	.nav ul.navSlideDown{
+		position: absolute;
+		left: -50px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.main1 .pin{
+		margin-left: 2px;
+	}
+	.main2 .pin{
+		margin-left: 2px;
+	}
+	.listMainnav{
+		padding: 5% 36% !important;
+	}
+	.actMainnav{
+		padding: 5% 26%;
+	}
+}
+@media screen and (max-width: 800px) {
+	.nav ul.navSlideDown{
+		position: absolute;
+		left: -55px;
+	}
+	.actMainnav{
+		padding: 5% 25%;
+	}
+	.listMainnav{
+		padding: 5% 34% !important;
+	}
+}
