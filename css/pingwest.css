@@ -27,7 +27,14 @@ html {overflow-y: scroll;}
 div.clear{
 	clear:both;
 }
-
+/*图片轮播插件修改*/
+div.active{
+	z-index: 1;
+}
+a.left,a.right{
+	display: block;
+	z-index: 9999;
+}
 /*登陆框css*/
 
 
@@ -51,13 +58,6 @@ div.clear{
   	width: 300px;
   	padding: 15px 20px;
   	background: #f3f6fa;
-  	/*-webkit-border-radius: 6px;
-  	-moz-border-radius: 6px;
-  	border-radius: 6px;
-  	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
-  	-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
- 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
- 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);*/
 }
 #loginmodal img{
 	width: 30%;
@@ -224,7 +224,7 @@ div.nav{
 .indexBannerImg{
 	position: relative;
 	width: 100%;
-	height: 100%;
+	max-height: 530px;
 }
 .indexBannerImg img{
 	z-index: -1;
@@ -330,11 +330,6 @@ li.active{
 	height: 200px;
 	float: left;
 }
-/*.main1:after{
-	content: "."; 
-    display: block; 
-    clear: both; 
-}*/
 .main2{
 	position: relative;
 	width: 100%;
@@ -346,28 +341,6 @@ li.active{
 	height: 200px;
 	float: left;
 }
-/*.indexMainSlideLeft{
-	position: relative;
-}
-.indexMainSlideLeft:after{
-	display: table; 
-	content:"."; 
-	clear:both;
-}
-.indexMainSlideRight{
-	position: relative;
-}
-.indexMainSlideRight:after{
-	display: table; 
-	content:"."; 
-	clear:both;
-}
-*/
-/*.main2:after{
-	display: table; 
-	content:"."; 
-	clear:both;  
-}*/
 .indexAbout{
 	position: relative;
 }
@@ -561,7 +534,7 @@ li.active{
 }
 .actMainnav{
 	text-align: center;
-	padding: 5% 34%;
+	padding: 5% 35%;
 }
 .actMainnav ul li{
 	float: left;
@@ -694,6 +667,8 @@ li.active{
 /*conBanner*/
 .conBanner{
 	position: relative;
+	max-height: 300px;
+	overflow: hidden;
 }
 .conBannerbox{
 	z-index: 9999;
@@ -882,7 +857,7 @@ li.active{
 	background: #F8F8F8;
 }
 .listMainnav{
-	padding: 5% 41%;
+	padding: 5% 37%;
 }
 .listMainContactText{
 	padding: 20px;
